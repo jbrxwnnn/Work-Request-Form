@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Request Form</title>
+    <link rel="stylesheet" href="workreq.css">
+</head>
+
+<body>
+    <h1>Work Request Form</h1>
+
+    <main>
+        <div>
+            <h2>Requestor Details</h2>
+            <form action="/request">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </p>
+                <p>
+                    <label for="date">Date Submitted:</label>
+                    <input type="date" placeholder="" name="date" id="date">
+                </p>
+                <p>
+                    <label for="contract">Contract:</label>
+                    <select name="contract" id="contract">
+                        <option value="">** Please select one **</option>
+                        <option value="asda">Asda</option>
+                        <option value="hope">Hope & Ivy</option>
+                        <option value="kidly">Kidly</option>
+                        <option value="ms">M&S</option>
+                        <option value="pop">Po.P</option>
+                        <option value="qvc">QVC</option>
+                        <option value="river">River Island</option>
+                        <option value="wilko">Wilko</option>
+                    </select>
+                </p>
+            </form>
+        </div>
+        <hr>
+        <div>
+            <h2>Request</h2>
+            <form action="">
+                <p>
+                    <label for="text"></label>
+                    <input type="text" placeholder="Enter your request in full" name="request" id="request">
+                </p>
+            </form>
+        </div>
+        <hr>
+        <div>
+            <h4>To be completed by the CI Team</h4>
+            <form action="">
+                <p>
+                    <label for="received">Received by:</label>
+                    <select name="received" id="received">
+                        <option value="">** Please select one **</option>
+                        <option value="jake">Jake</option>
+                        <option value="jason">Jason</option>
+                        <option value="charlotte">Charlotte</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="tracking">Tracking No:</label>
+                    <input type="number" name="tracking" id="tracking">
+                </p>
+                <p>
+                    <label for="assign">Assigned to:</label>
+                    <select name="assign" id="assign">
+                        <option value="">** Please select one **</option>
+                        <option value="jake">Jake</option>
+                        <option value="jason">Jason</option>
+                        <option value="charlotte">Charlotte</option>
+                    </select>
+                </p>
+            </form>
+        </div>
+        <hr>
+        <div>
+            <button>Submit</button>
+        </div>
+    </main>
+
+</body>
+
+</html>
