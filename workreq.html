@@ -16,19 +16,20 @@
         <div class="reqdetail">
             <h2>Requestor Details</h2>
             <form action="/request">
-                <p>
+                <p id="name">
                     <label for="name">Name:</label>
                     <input type="text" name="name" id="name">
                 </p>
-                <p>
+                <p id="email">
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email">
                 </p>
-                <p>
+                <br>
+                <p id="date">
                     <label for="date">Date Submitted:</label>
                     <input type="date" placeholder="" name="date" id="date">
                 </p>
-                <p>
+                <p id="contract">
                     <label for="contract">Contract:</label>
                     <select name="contract" id="contract">
                         <option value="">** Please select one **</option>
@@ -59,7 +60,7 @@
         <div class="citeam">
             <h4>To be completed by the CI Team</h4>
             <form action="">
-                <p>
+                <p id="received">
                     <label for="received">Received by:</label>
                     <select name="received" id="received">
                         <option value="">** Please select one **</option>
@@ -68,11 +69,12 @@
                         <option value="charlotte">Charlotte</option>
                     </select>
                 </p>
-                <p>
+                <p id="tracking">
                     <label for="tracking">Tracking No:</label>
                     <input type="number" name="tracking" id="tracking">
                 </p>
-                <p>
+                <br>
+                <p id="assign">
                     <label for="assign">Assigned to:</label>
                     <select name="assign" id="assign">
                         <option value="">** Please select one **</option>

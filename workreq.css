@@ -18,6 +18,24 @@ h1 {
     padding: 10px;
 }
 
+#name {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+#email {
+    display: inline-block;
+}
+
+#date {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+#contract {
+    display: inline-block;
+}
+
 .reqtext {
     text-align: center;
     border: 2px;
@@ -38,6 +56,17 @@ h1 {
     margin-right: 200px;
     padding: 10px;
 }
+
+#received {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+#tracking {
+    display: inline-block;
+}
+
+#assign {}
 
 .submit {
     text-align: center;
