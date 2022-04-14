@@ -13,7 +13,7 @@
     <h1>Work Request Form</h1>
 
     <main>
-        <div>
+        <div class="reqdetail">
             <h2>Requestor Details</h2>
             <form action="/request">
                 <p>
@@ -44,18 +44,19 @@
                 </p>
             </form>
         </div>
-        <hr>
-        <div>
+        <br>
+        <div class="reqtext">
             <h2>Request</h2>
             <form action="">
                 <p>
                     <label for="text"></label>
-                    <input type="text" placeholder="Enter your request in full" name="request" id="request">
+                    <textarea name="request" id="request" cols="70" rows="10"
+                        placeholder="Enter your request in full"></textarea>
                 </p>
             </form>
         </div>
-        <hr>
-        <div>
+        <br>
+        <div class="citeam">
             <h4>To be completed by the CI Team</h4>
             <form action="">
                 <p>
@@ -82,8 +83,8 @@
                 </p>
             </form>
         </div>
-        <hr>
-        <div>
+        <br>
+        <div class="submit">
             <button>Submit</button>
         </div>
     </main>
